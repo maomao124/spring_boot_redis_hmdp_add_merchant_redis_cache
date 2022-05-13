@@ -44,10 +44,10 @@ public class SpringMvcConfiguration implements WebMvcConfigurer
 //                "/user/code",
 //                "/user/login"
 //        ).order(1);
-        //刷新token过期时间拦截器
-        InterceptorRegistration refreshTokenInterceptorRegistration =
-                registry.addInterceptor(new RefreshTokenInterceptor(stringRedisTemplate));
-        refreshTokenInterceptorRegistration.addPathPatterns("/**").order(0);
+//        //刷新token过期时间拦截器
+//        InterceptorRegistration refreshTokenInterceptorRegistration =
+//                registry.addInterceptor(new RefreshTokenInterceptor(stringRedisTemplate));
+//        refreshTokenInterceptorRegistration.addPathPatterns("/**").order(0);
     }
 }
 

@@ -18,3 +18,26 @@
 2022-05-13 22:01:15.704  INFO 21376 --- [restartedMain] edisHmdpAddMerchantRedisCacheApplication : Started SpringBootRedisHmdpAddMerchantRedisCacheApplication in 2.648 seconds (JVM running for 3.403)
 2022-05-13 22:01:18.918  INFO 21376 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-05-13 22:01:18.918  INFO 21376 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-13 22:02:35.981  INFO 18920 --- [restartedMain] edisHmdpAddMerchantRedisCacheApplication : Starting SpringBootRedisHmdpAddMerchantRedisCacheApplication using Java 16.0.2 on mao with PID 18920 (H:\程序\大三下期\spring_boot_redis_hmdp添加商户redis缓存\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp添加商户redis缓存)
+2022-05-13 22:02:35.982 DEBUG 18920 --- [restartedMain] edisHmdpAddMerchantRedisCacheApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-13 22:02:35.982  INFO 18920 --- [restartedMain] edisHmdpAddMerchantRedisCacheApplication : The following 1 profile is active: "dev"
+2022-05-13 22:02:36.015  INFO 18920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-13 22:02:36.015  INFO 18920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-13 22:02:36.517  INFO 18920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-13 22:02:36.519  INFO 18920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-13 22:02:36.540  INFO 18920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-13 22:02:36.976  INFO 18920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 22:02:36.984  INFO 18920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 22:02:36.984  INFO 18920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 22:02:37.050  INFO 18920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 22:02:37.051  INFO 18920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2022-05-13 22:02:37.270  INFO 18920 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-13 22:02:37.364  INFO 18920 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-13 22:02:38.249  INFO 18920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 22:02:38.291  INFO 18920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-13 22:02:38.301  INFO 18920 --- [restartedMain] edisHmdpAddMerchantRedisCacheApplication : Started SpringBootRedisHmdpAddMerchantRedisCacheApplication in 2.64 seconds (JVM running for 3.179)
+2022-05-13 22:05:07.309  INFO 18920 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-13 22:05:07.309  INFO 18920 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-13 22:05:07.310  INFO 18920 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-13 22:07:34.805  INFO 18920 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-13 22:07:34.806  INFO 18920 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
