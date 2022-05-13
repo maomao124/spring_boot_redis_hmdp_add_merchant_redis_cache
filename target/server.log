@@ -1,0 +1,15 @@
+2022-05-13 22:12:16.140  INFO 11184 --- [main] edisHmdpAddMerchantRedisCacheApplication : Starting SpringBootRedisHmdpAddMerchantRedisCacheApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 11184 (H:\程序\大三下期\spring_boot_redis_hmdp添加商户redis缓存\target\spring_boot_redis_hmdp-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\spring_boot_redis_hmdp添加商户redis缓存\target)
+2022-05-13 22:12:16.143 DEBUG 11184 --- [main] edisHmdpAddMerchantRedisCacheApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-13 22:12:16.144  INFO 11184 --- [main] edisHmdpAddMerchantRedisCacheApplication : The following 1 profile is active: "dev"
+2022-05-13 22:12:16.999  INFO 11184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-13 22:12:17.007  INFO 11184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-13 22:12:17.064  INFO 11184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2022-05-13 22:12:17.925  INFO 11184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 22:12:17.936  INFO 11184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 22:12:17.936  INFO 11184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 22:12:18.018  INFO 11184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-13 22:12:18.018  INFO 11184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1805 ms
+2022-05-13 22:12:18.415  INFO 11184 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-13 22:12:18.688  INFO 11184 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-13 22:12:20.379  INFO 11184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-13 22:12:20.398  INFO 11184 --- [main] edisHmdpAddMerchantRedisCacheApplication : Started SpringBootRedisHmdpAddMerchantRedisCacheApplication in 4.902 seconds (JVM running for 5.402)
