@@ -32,18 +32,18 @@ public class SpringMvcConfiguration implements WebMvcConfigurer
     @Override
     public void addInterceptors(InterceptorRegistry registry)
     {
-        //添加拦截器，登录拦截器
-        InterceptorRegistration interceptorRegistration = registry.addInterceptor(new LoginInterceptor());
-        // 添加配置可以放行哪些路径
-        interceptorRegistration.excludePathPatterns(
-                "/shop/**",
-                "/voucher/**",
-                "/shop-type/**",
-                "/upload/**",
-                "/blog/hot",
-                "/user/code",
-                "/user/login"
-        ).order(1);
+//        //添加拦截器，登录拦截器
+//        InterceptorRegistration interceptorRegistration = registry.addInterceptor(new LoginInterceptor());
+//        // 添加配置可以放行哪些路径
+//        interceptorRegistration.excludePathPatterns(
+//                "/shop/**",
+//                "/voucher/**",
+//                "/shop-type/**",
+//                "/upload/**",
+//                "/blog/hot",
+//                "/user/code",
+//                "/user/login"
+//        ).order(1);
         //刷新token过期时间拦截器
         InterceptorRegistration refreshTokenInterceptorRegistration =
                 registry.addInterceptor(new RefreshTokenInterceptor(stringRedisTemplate));
